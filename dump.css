@@ -1,0 +1,168 @@
+body {
+	background: #363636;
+	color: #b3b3b3;
+	padding: 10px;
+	cursor: default;
+	font: 12px Arial,sans-serif;
+}
+
+#errors { padding: 10px 0; }
+#errors:empty, #totals:empty { display: none; }
+#errors .mule { background-color: #503636; }
+
+#totals {
+	line-height: 0;
+	padding: 5px;
+	max-width: 528px;
+	border: solid 2px #555;
+	margin: 3px;
+}
+
+#cnt {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 4px;
+	background-color: #ccc;
+	color: #333;
+}
+
+#options {
+	width: 200px;
+	float: right;
+	font-size: 15px;
+	margin: 15px;
+}
+
+#options input,label { cursor: pointer; }
+
+#reloader {
+	cursor: pointer;
+	text-decoration: underline;
+	padding-bottom: 15px;
+}
+
+#errors, .mule, .guid, .reload, #reloader, .error, .item { display: inline-block; }
+
+.mule {
+	padding: 2px;
+	margin: 3px;
+	border: solid 2px #555;
+	float: left;
+	min-width: 190px;
+}
+
+.guid {
+	color: #ccc;
+	background: inherit;
+	border: solid 1px #888;
+	font-family: monospace;
+	width: 160px;
+}
+
+.name, .error, .reload, #cnt { font-weight: bold; }
+
+.name {
+	font-size: 16px;
+	margin: 4px;
+	text-align: center;
+}
+
+.error {
+	color: #faa;
+	margin-left: 0.5em;
+}
+
+.reload {
+	cursor: pointer;
+	color: white;
+	margin: 0 0.3em 0 0.5em;
+	float: right;
+}
+
+.char, .vaults, .totals {
+	padding: 5px;
+	border-top: solid 2px #555;
+}
+
+.stats, .pcstats {
+	width: 180px;
+	margin: 5px 0;
+}
+
+.stats td {
+	line-height: 1em;
+	padding: 0;
+}
+
+.stats td.sname {
+	text-align: right;
+	padding: 0 5px 0 0;
+}
+
+.stat.avg { /*color: #73cce2;*/ }
+.stat.max { color: #f0f0a0; }
+.stat.maxed { color: #fcdf00; }
+.stat.good { color: #90ff90; }
+.stat.good.very { color: #00ff00; }
+.stat.bad { color: #ff9090; }
+.stat.bad.very { color: #ff0000; }
+
+.items {
+	line-height: 0;
+	max-width: 180px;
+}
+
+.itemsc {
+	margin: 2px;
+	padding: 0;
+	/*border-radius: 13px;*/ /* doesnt work in chrome apparently */
+	overflow: hidden;
+	max-width: 195px;
+}
+
+.item {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	background: url(renders.png) #545454;
+}
+
+.item.selected {
+	/*outline: 1px solid #fa0;*/
+	background-color: #999;
+}
+
+/* counter */
+.item div {
+	position: absolute;
+	right: 4px;
+	bottom: 1px;
+	color: white;
+	font: bold 15px Arial,sans-serif;
+	text-shadow: -1px 0 3px black, 0 1px 3px black, 1px 0 3px black, 0 -1px 3px black;
+}
+
+/* achievements etc */
+.pcstats {
+	overflow: hidden;
+}
+
+.pcstats td {
+	padding: 0;
+	line-height: 1.1em;
+	text-align: right;
+	overflow: hidden;
+	max-width: 110px;
+}
+
+.pcstats .pcstat, .pcstats .bonus {
+	text-align: left;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.pcstats .pcstat { color: #57AD62; }
+.pcstats .bonus { color: #FFC800; }
+

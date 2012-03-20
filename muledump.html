@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>muledump</title>
+	<!-- <script type="application/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+	<script type="application/javascript" src="jquery.js"></script>
+	<script type="application/javascript" src="constants.js"></script>
+	<script type="application/javascript" src="accounts.js"></script>
+	<script type="application/javascript" src="pcstats.js"></script>
+	<script type="application/javascript" src="muledump.js"></script>
+	<link type="text/css" rel="stylesheet" href="dump.css">
+</head>
+<body>
+	<div id="options">
+		<div id="reloader">reload all</div>
+		<div>
+		<input type="checkbox" name="totals" value="totals" id="optotals" />
+		<label for="optotals">totals</label>
+		</div>
+		<div>
+		<input type="checkbox" name="guid" value="guid" id="opguid" />
+		<label for="opguid">emails</label>
+		</div>
+		<div>
+		<input type="checkbox" name="items" value="items" id="opitems" />
+		<label for="opitems">items</label>
+		</div>
+		<div>
+		<input type="checkbox" name="equipment" value="equipment" id="opequip" />
+		<label for="opequip">equipped items</label>
+		</div>
+		<div>
+		<input type="checkbox" name="crap" value="crap" id="opcrap" />
+		<label for="opcrap">bad items</label>
+		</div>
+		<div>
+		<input type="checkbox" name="stats" value="stats" id="opstats" />
+		<label for="opstats">stats</label>
+		</div>
+		<div id="opstat">
+			<input type="radio" name="sttype" value="base" id="opstatbase" />
+			<label for="opstatbase">base</label>
+			<br>
+			<input type="radio" name="sttype" value="avg" id="opstatavg" />
+			<label for="opstatavg">distance from average</label>
+			<br>
+			<input type="radio" name="sttype" value="max" id="opstatmax" />
+			<label for="opstatmax">left to max</label>
+		</div>
+		<div>
+		<input type="checkbox" name="pcstats" value="pcstats" id="oppcstats" />
+		<label for="oppcstats">death screen</label>
+		</div>
+		<div>
+		<input type="checkbox" name="mcbeth" value="mcbeth" id="opmc" />
+		<label for="opmc">only first char</label>
+		</div>
+	</div>
+	<div id="cnt" style="display: none;">waiting requests: <span id="counter"></span></div>
+	<div id="totals"></div>
+	<div id="errors"></div>
+	<div id="stage"></div>
+</body>
+</html>
