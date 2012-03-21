@@ -162,11 +162,10 @@ Mule.prototype.query = function(ignore_cache) {
 		return;
 	}
 	
-	var url = URL + $.param({
-		guid: this.guid,
-		password: accounts[this.guid],
-		ignore: Math.floor(1e3 + 9e3 * Math.random()),
-	});
+	var params = {guid: this.guid, ignore: Math.floor(1e3 + 9e3 * Math.random())};
+	var pass = accounts[this.guid] || '';
+	params[this.guid.indexOf('kongregate:') == 0 ? 'secret' : 'password'] = pass;
+	var url = URL + $.param(params);
 	
 	$.ajax_queue({
 		dataType: 'json',
