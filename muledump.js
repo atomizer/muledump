@@ -225,7 +225,7 @@ Mule.prototype.parse = function(data) {
 		var cl = classes[c.ObjectType];
 		if (!cl) continue;
 		$('<div class="chdesc" />')
-			.append($('<div />').text(cl[0] + ' ' + c.Level))
+			.append($('<div />').text(cl[0] + ' ' + c.Level + ', char #' + c.id))
 			.append($('<div />').text(c.CurrentFame + ' Fame ' + c.Exp + ' Exp'))
 			.appendTo($c);
 		
