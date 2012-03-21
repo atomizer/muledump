@@ -51,10 +51,10 @@ var bonuses = {
 		return 0.1;
 	},
 	'Enemy of the Gods': function(s) {
-		return (s[8] / s[6] > 0.1) ? 0.1 : 0;
+		return (s[8] / (s[6] + s[8]) > 0.1) ? 0.1 : 0;
 	},
 	'Slayer of the Gods': function(s) {
-		return (s[8] / s[6] > 0.5) ? 0.1 : 0;
+		return (s[8] / (s[6] + s[8]) > 0.5) ? 0.1 : 0;
 	},
 	'Oryx Slayer': function(s) {
 		return s[11] ? 0.1 : 0;
@@ -121,6 +121,7 @@ function readstats(pcstats) {
 		var val = readInt32BE(b, i + 1);
 		r[f] = val;
 	}
+	for (var i in pcstatnames) if (!r[i]) r[i] = 0;
 	return r;
 }
 
@@ -130,6 +131,7 @@ function printstats(c, d) {
 	var $c = $('<table class="pcstats" />');
 	
 	for (var i in st) {
+		if (!st[i]) continue;
 		var sname = pcstatnames[i] || '#' + i;
 		$('<tr>')
 			.append($('<td>').text(sname))
