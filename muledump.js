@@ -223,6 +223,7 @@ Mule.prototype.parse = function(data) {
 		var c = carr[i], $c = $('<div class="char" />');
 		if (!c || c.Dead != 'False') continue;
 		var cl = classes[c.ObjectType];
+		if (!cl) continue;
 		$('<div class="chdesc" />')
 			.append($('<div />').text(cl[0] + ' ' + c.Level))
 			.append($('<div />').text(c.CurrentFame + ' Fame ' + c.Exp + ' Exp'))
@@ -344,6 +345,13 @@ function options_updated($t) {
 var mules = {};
 
 $(function() {
+	if (typeof accounts != 'object') {
+		$('<h2>').addClass('error')
+			.text('accounts.js is missing or corrupted')
+			.appendTo($('#errors'));
+		return;
+	}
+	
 	$.ajaxSetup({
 		cache: false,
 		timeout: 5000,
