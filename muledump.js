@@ -2,6 +2,8 @@
 
 // "good" are only items with this or more famebonus
 var FAMETHRESHOLD = 2
+// or these (pots, incantation and amulet)
+var GOOD = [0xa1f, 0xa20, 0xa21, 0xa34, 0xa35, 0xa4c, 0xae9, 0xaea, 0x722, 0xb3e]
 
 var options = {
 	equipment: true,
@@ -106,7 +108,7 @@ function update_totals($arr, act) {
 		if (!$cnt.length) $cnt = item(id);
 		if (act == '-') upd_cnt($cnt, -1);
 		if (act == '+') {
-			var adding = options.crap || it[5] >= FAMETHRESHOLD;
+			var adding = options.crap || it[5] >= FAMETHRESHOLD || ~GOOD.indexOf(+id);
 			adding = adding && (options.equipment || !$it.first().parent().hasClass('equipment'));
 			if (adding) upd_cnt($cnt, 1);
 		}
