@@ -1,48 +1,75 @@
 body {
 	background: #363636;
 	color: #b3b3b3;
-	padding: 10px;
+	padding: 16px;
+	margin: 0;
 	cursor: default;
 	font: 12px Arial,sans-serif;
 }
 
-#errors { padding: 10px 0; }
-#errors:empty, #totals:empty { display: none; }
-#errors .mule { background-color: #503636; }
-
-#totals {
-	line-height: 0;
-	padding: 5px;
-	max-width: 528px;
-	border: solid 2px #555;
-	margin: 3px;
-}
-
 #cnt {
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 4px;
+	right: 4px;
 	padding: 4px;
+	z-index: 200;
 	background-color: #ccc;
 	color: #333;
 }
 
-#options {
-	width: 200px;
-	float: right;
+#top {
 	font-size: 15px;
-	margin: 15px;
+	padding: 5px;
+	border: solid 2px #555;
 }
+
+#top > div, #top > a {
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #555;
+	padding: 0 4px;
+}
+#top > a { color: inherit; text-decoration: none; }
+
+#options {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	padding: 5px;
+	border: solid 2px #555;
+	background: #363636;
+	width: 200px;
+}
+#options:hover { display: block; }
+#ohandle { position: relative; }
+#ohandle:hover+#options { display: block; }
 
 #options input,label { cursor: pointer; }
 
-#reloader {
-	cursor: pointer;
-	text-decoration: underline;
-	padding-bottom: 15px;
+#options input { float: left; clear: left; margin: 4px;  }
+#options label {display: block; padding: 2px; }
+
+#options label:hover,
+#options input:hover ~ label,
+#top > div:hover, #top > a:hover {
+    background: #555;
+    color: #fff;
 }
 
-#errors, .mule, .guid, .reload, #reloader, .error, .item { display: inline-block; }
+#options div>div>div { padding-left: 15px; }
+
+#errors, .mule, .guid, .reload, .error, .item { display: inline-block; }
+
+#errors { padding: 10px 0; }
+#errors .mule { background-color: #503636; }
+
+#totals {
+	line-height: 0;
+	max-width: 528px;
+	padding: 5px;
+	border: solid 2px #555;
+	margin: 3px;
+}
 
 .mule {
 	padding: 2px;
