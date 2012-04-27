@@ -64,8 +64,17 @@ body {
 	border: solid 2px #555;
 }
 
-#errors { background-color: #503636; }
+#errors { background-color: #503636; font-size: 13px; }
 #errors:empty { display: none; }
+.error {
+	color: #eaa;
+	margin: 6px 8px;
+}
+.error span {
+	margin-left: 1em;
+	color: #ddd;
+	cursor: pointer;
+}
 
 #totals {
 	line-height: 0;
@@ -95,11 +104,6 @@ body {
 	font-size: 16px;
 	margin: 4px;
 	text-align: center;
-}
-
-.error {
-	color: #faa;
-	margin-left: 0.5em;
 }
 
 .reload {
