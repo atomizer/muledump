@@ -19,8 +19,7 @@ body {
 
 #top {
 	font-size: 15px;
-	padding: 5px;
-	border: solid 2px #555;
+	margin: 0 3px;
 }
 
 #top > div, #top > a {
@@ -58,17 +57,20 @@ body {
 
 #options div>div>div { padding-left: 15px; }
 
-#errors, .mule, .guid, .reload, .error, .item { display: inline-block; }
+#errors, .mule, .guid, .reload, .item { display: inline-block; }
 
-#errors { padding: 10px 0; }
-#errors .mule { background-color: #503636; }
+#errors, #totals {
+	margin: 10px 3px;
+	border: solid 2px #555;
+}
+
+#errors { background-color: #503636; }
+#errors:empty { display: none; }
 
 #totals {
 	line-height: 0;
 	max-width: 528px;
 	padding: 5px;
-	border: solid 2px #555;
-	margin: 3px;
 }
 
 .mule {
