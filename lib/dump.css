@@ -87,7 +87,7 @@ body {
 	margin: 3px;
 	border: solid 2px #555;
 	float: left;
-	min-width: 190px;
+	min-width: 184px;
 }
 
 .guid {
@@ -113,14 +113,16 @@ body {
 	float: right;
 }
 
-.char, .vaults, .totals {
-	padding: 5px;
-	border-top: solid 2px #555;
+hr {
+	margin: 0;
+	background-color: #555;
+	border-style: none;
+	height: 2px;
 }
 
-.stats, .pcstats {
+.stats, .pcstats, .chdesc {
 	width: 180px;
-	margin: 5px 0;
+	margin: 4px 0;
 }
 
 .stats td {
@@ -143,15 +145,14 @@ body {
 
 .items {
 	line-height: 0;
-	max-width: 180px;
 }
 
 .itemsc {
+	width: 176px;
 	margin: 2px;
 	padding: 0;
 	/*border-radius: 13px;*/ /* doesnt work in chrome apparently */
 	overflow: hidden;
-	max-width: 195px;
 }
 
 .item {
@@ -200,3 +201,20 @@ body {
 .pcstats .bonus { color: #FFC800; }
 
 .mule.disabled { opacity: 0.5; }
+
+.mule > table {
+	margin: 0;
+	padding: 2px;
+	border-spacing: 0;
+	width: 100%;
+}
+td.cont {
+	vertical-align: top;
+	text-align: center;
+	padding: 0;
+}
+td.cont > div {
+	text-align: left;
+	display: inline-block;
+}
+
