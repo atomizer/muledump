@@ -10,7 +10,7 @@ body {
 #cnt {
 	position: fixed;
 	top: 4px;
-	right: 4px;
+	left: 4px;
 	padding: 4px;
 	z-index: 200;
 	background-color: #ccc;
@@ -20,6 +20,7 @@ body {
 #top {
 	font-size: 15px;
 	margin: 0 3px;
+	text-align: right;
 }
 
 #top > div, #top > a {
@@ -33,15 +34,18 @@ body {
 #options {
 	display: none;
 	position: absolute;
+	right: -2px;
 	z-index: 100;
 	padding: 5px;
 	border: solid 2px #555;
 	background: #363636;
+	color: #b3b3b3;
 	width: 200px;
+	text-align: left;
 }
 #options:hover { display: block; }
 #ohandle { position: relative; }
-#ohandle:hover+#options { display: block; }
+#ohandle:hover #options { display: block; }
 
 #options input,label { cursor: pointer; }
 
@@ -98,7 +102,7 @@ body {
 	width: 160px;
 }
 
-.name, .error, .reload, #cnt { font-weight: bold; }
+.name, .error, .reload, #counter { font-weight: bold; }
 
 .name {
 	font-size: 16px;
