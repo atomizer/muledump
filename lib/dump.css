@@ -199,3 +199,4 @@ body {
 .pcstats .pcstat { color: #57AD62; }
 .pcstats .bonus { color: #FFC800; }
 
+.mule.disabled { opacity: 0.5; }
