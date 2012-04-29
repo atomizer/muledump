@@ -164,11 +164,13 @@ hr {
 	height: 40px;
 	margin: 2px;
 	background: url(renders.png) #545454;
+	overflow: hidden;
 }
 
 .item.selected {
-	/*outline: 1px solid #fa0;*/
-	background-color: #999;
+	background-color: #ffcd57;
+	outline: 2px solid #fefe8e;
+	outline-offset: -1px;
 }
 
 /* counter */
