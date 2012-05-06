@@ -223,3 +223,13 @@ td.cont > div {
 	display: inline-block;
 }
 
+/* stars */
+.name span {
+	font-weight: normal;
+	font-size: 14px;
+}
+span.star {
+	font-size: 1.2em;
+	line-height: 0;
+	margin: 0 0.1em 0 0.3em;
+}
