@@ -96,10 +96,10 @@ body {
 
 .guid {
 	color: #ccc;
-	background: inherit;
+	background: #303030;
 	border: solid 1px #888;
 	font-family: monospace;
-	width: 160px;
+	width: 140px;
 }
 
 .name, .error, .reload, #counter { font-weight: bold; }
