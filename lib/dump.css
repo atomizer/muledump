@@ -61,7 +61,7 @@ body {
 
 #options div>div>div { padding-left: 15px; }
 
-#errors, .mule, .guid, .reload, .item { display: inline-block; }
+#errors, #totals, .mule, .guid, .reload, .item { display: inline-block; }
 
 #errors, #totals {
 	margin: 10px 3px;
