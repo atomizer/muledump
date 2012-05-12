@@ -31,7 +31,7 @@ body {
 }
 #top > a { color: inherit; text-decoration: none; }
 
-#options {
+.menu {
 	display: none;
 	position: absolute;
 	right: -2px;
@@ -43,12 +43,11 @@ body {
 	width: 200px;
 	text-align: left;
 }
-#options:hover { display: block; }
-#ohandle { position: relative; }
-#ohandle:hover #options { display: block; }
+.menu:hover { display: block; }
+.handle { position: relative; }
+.handle:hover .menu { display: block; }
 
 #options input,label { cursor: pointer; }
-
 #options input { float: left; clear: left; margin: 4px;  }
 #options label {display: block; padding: 2px; }
 
