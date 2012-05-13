@@ -8,19 +8,22 @@
 	<script type="application/javascript" src="lib/constants.js"></script>
 	<script type="application/javascript" src="lib/options.js"></script>
 	<script type="application/javascript" src="lib/pcstats.js"></script>
+	<script type="application/javascript" src="lib/export.js"></script>
 	<script type="application/javascript" src="accounts.js"></script>
 	<script type="application/javascript" src="lib/muledump.js"></script>
 	<link type="text/css" rel="stylesheet" href="lib/dump.css">
 	<link type="image/png" rel="shortcut icon" href="lib/favicon.png">
 </head>
 <body>
+	<img id="renders" alt="renders" src="lib/renders.png" style="display:none">
 	<div id="main">
 		<div id="top">
 			<div id="cnt" style="display: none;">waiting requests: <span id="counter"></span></div>
 			<div class="handle"><span>options</span><span id="options" class="menu"></span></div>
 			<div id="reloader">reload all</div>
-			<a href="http://forums.wildshadow.com/node/10216" target="_blank">home</a>
+			<div class="handle"><span>export</span><span id="export" class="menu"></span></div>
 			<div id="update">update</div>
+			<a href="http://forums.wildshadow.com/node/10216" target="_blank">home</a>
 		</div>
 		<div id="totals"></div>
 		<div id="errors"></div>
