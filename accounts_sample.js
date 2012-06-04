@@ -1,6 +1,6 @@
 // editor with syntax hilighting is recommended (for example, notepad++ or textmate)
 
-var accounts = {
+accounts = {
 
 // Put your data here as shown below. Don't forget the commas and quotes!
 // If your emails or passwords contain single quotes,
@@ -14,6 +14,8 @@ var accounts = {
 }// don't delete this line!
 
 
-// uncomment next line to switch to testing
-//testing = 1
+// change to 1 to switch to testing
+testing = 0
 
+// change to 1 to enable price display in tooltips
+prices = 0
