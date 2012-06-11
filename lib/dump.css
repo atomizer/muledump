@@ -113,11 +113,18 @@ body {
 	text-align: center;
 }
 
-.reload {
+.reload, .mulelink {
+	line-height: 2em;
 	cursor: pointer;
 	color: white;
-	margin: 0 0.3em 0 0.5em;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0 5px 0 0;
 	float: right;
+	overflow: hidden;
+}
+.mulelink {
+	text-decoration: none;
 }
 
 hr {

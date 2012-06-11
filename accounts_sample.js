@@ -19,3 +19,6 @@ testing = 0
 
 // change to 1 to enable price display in tooltips
 prices = 0
+
+// change to 1 to enable one-click login (run lib/mulelogin.au3 first)
+mulelogin = 0
