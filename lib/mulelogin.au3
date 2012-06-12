@@ -102,6 +102,7 @@ _build()
 $path = @AppDataDir & "\Macromedia\Flash Player\#SharedObjects\"
 $search = FileFindFirstFile($path & "*")
 $path &= FileFindNextFile($search) & "\www.realmofthemadgod.com\RotMG.sol"
+FileClose($search)
 $file = FileOpen($path,18)
 FileWrite($file,$string)
 FileClose($file)
