@@ -76,6 +76,8 @@ body {
 .error {
 	color: #eaa;
 	margin: 6px 8px;
+	line-height: 1.5em;
+	overflow: hidden;
 }
 .error span {
 	margin-left: 1em;
