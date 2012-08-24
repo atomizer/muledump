@@ -42,24 +42,26 @@ body {
 	color: #b3b3b3;
 	width: 200px;
 	text-align: left;
+	font-weight: normal;
+	font-size: 15px;
 }
 .menu:hover { display: block; }
 .handle { position: relative; }
 .handle:hover .menu { display: block; }
 
-#options input,label { cursor: pointer; }
-#options input { float: left; clear: left; margin: 4px;  }
-#options label {display: block; padding: 2px; }
+.menu input,label { cursor: pointer; }
+.menu input { float: left; clear: left; margin: 4px;  }
+.menu label {display: block; padding: 2px; }
 
-#options label:hover,
-#options input:hover ~ label,
+.menu label:hover,
+.menu input:hover ~ label,
 #export div:hover,
 #top > div:hover, #top > a:hover {
     background: #555;
     color: #fff;
 }
 
-#options div>div>div { padding-left: 15px; }
+.menu div>div>div { padding-left: 15px; }
 
 #export { width: auto; text-align: center; }
 #export div { padding: 0 5px; }
