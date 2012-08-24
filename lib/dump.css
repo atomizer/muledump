@@ -208,7 +208,17 @@ hr {
 	max-width: 110px;
 }
 
-.pcstats .pcstat, .pcstats .bonus {
+.pcstats .goal {
+	text-align: left;
+}
+
+.pcstats .goal .bonus {
+	white-space: nowrap;
+	font-weight: normal;
+	padding: 0;
+}
+
+.pcstats .pcstat, .pcstats .bonus, .pcstats .info {
 	text-align: left;
 	font-weight: bold;
 	padding-left: 5px;
