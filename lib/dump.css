@@ -132,6 +132,13 @@ body {
 	text-decoration: none;
 }
 
+.portrait {
+	float: left;
+	width: 22px;
+	height: 22px;
+	margin: 4px 6px 0 4px;
+}
+
 hr {
 	margin: 0;
 	background-color: #555;
