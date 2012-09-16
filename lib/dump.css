@@ -116,15 +116,16 @@ body {
 	margin: 4px;
 	text-align: center;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 .reload, .mulelink {
 	line-height: 2em;
 	cursor: pointer;
 	color: white;
-	font-size: 14px;
-	line-height: 1.5em;
-	margin: 0 5px 0 0;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 5px 4px 0 0;
 	float: right;
 	overflow: hidden;
 }
@@ -263,6 +264,7 @@ td.cont > div {
 	padding: 1px 1px 1px 4px;
 	font-weight: normal;
 	font-size: 14px;
+	margin: 4px 2px;
 }
 .scont .star {
 	font-size: 1.2em;
