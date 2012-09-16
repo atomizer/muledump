@@ -106,7 +106,7 @@ body {
 	background: #303030;
 	border: solid 1px #888;
 	font-family: monospace;
-	width: 140px;
+	width: 100%;
 }
 
 .name, .error, .reload, #counter { font-weight: bold; }
