@@ -22,3 +22,7 @@ prices = 0
 
 // change to 1 to enable one-click login (run lib/mulelogin.au3 first)
 mulelogin = 0
+
+// 0 = use smart layout (fill empty spaces)
+// 1 = show account boxes row by row
+nomasonry = 0
