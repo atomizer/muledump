@@ -242,3 +242,9 @@ version 0.3: collaboration edition
 - new accounts.js option: "nomasonry" - set to 1 to turn off smart layout
 - fixed some problems with per-account menus
 - ctrl-click on name toggles the account in the totals
+
+**10/05/2012**
+
+0.4.5
+
+- ninja, 124.0 items
