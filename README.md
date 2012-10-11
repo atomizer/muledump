@@ -248,3 +248,10 @@ version 0.3: collaboration edition
 0.4.5
 
 - ninja, 124.0 items
+
+**10/11/2012**
+
+0.4.6
+
+- ninja equipment fame bonuses
+- fixed star color calculation
