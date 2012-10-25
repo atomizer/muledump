@@ -255,3 +255,10 @@ version 0.3: collaboration edition
 
 - ninja equipment fame bonuses
 - fixed star color calculation
+
+**10/25/2012**
+
+0.4.7
+
+- 3.1 items
+- made achievement progress and additional stats options independent of each other
