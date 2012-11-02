@@ -262,3 +262,11 @@ version 0.3: collaboration edition
 
 - 3.1 items
 - made achievement progress and additional stats options independent of each other
+
+**11/2/2012**
+
+0.4.8
+
+- 4.0 items
+- item names and tiers now match the in-game tooltips (except dosed items like elixirs)
+- fixed char description sometimes spanning more lines than it should
