@@ -151,6 +151,10 @@ hr {
 	margin: 4px 0;
 }
 
+.chdesc {
+	white-space: nowrap;
+}
+
 .stats td {
 	line-height: 1em;
 	padding: 0;
