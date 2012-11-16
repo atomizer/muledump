@@ -15,6 +15,13 @@ All released versions are [here](https://github.com/atomizer/muledump/tags).
 - rename it to **`accounts.js`**
 - open **`muledump.html`**
 
+## Not so obvious features
+
+- click on item to filter accounts that hold it
+- click on account name for individual options menu
+- ctrl-click account name to temporarily hide it from totals
+- read the `accounts.js` file, it has some variables to play with
+
 ## Troubleshooting & Frequently Asked Questions
 
 ### It redirected me to [this video](http://www.youtube.com/watch?v=KJ-wO7SMtOg)! What did I do wrong?
@@ -270,3 +277,11 @@ version 0.3: collaboration edition
 - 4.0 items
 - item names and tiers now match the in-game tooltips (except dosed items like elixirs)
 - fixed char description sometimes spanning more lines than it should
+
+**11/16/2012**
+
+0.4.9
+
+- 5.0 items
+- added backpacks
+- fixed ninja equips position in totals
