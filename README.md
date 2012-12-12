@@ -82,11 +82,9 @@ If already installed:
 * change `mulelogin` to `0`
 * run `lib/mulelogin.au3`, select "uninstall".
 
-## Optional feature: display prices from Kazansky's price guide
+## Optional feature: display prices from a price guide
 
-*Since there are no accurate price guides at the moment, this feature is pretty much useless.*
-
-[aiedail92](https://github.com/aiedail92) implemented scraping of [Kaz's thread](https://forums.wildshadow.com/node/100708).
+[aiedail92](https://github.com/aiedail92) implemented scraping of price guide threads. Currently using [MustafaD](https://forums.wildshadow.com/node/139685).
 
 **How to enable:** change `prices` in `accounts.js` to `1`
 
@@ -285,3 +283,10 @@ version 0.3: collaboration edition
 - 5.0 items
 - added backpacks
 - fixed ninja equips position in totals
+
+**12/12/2012**
+
+0.4.10
+
+- 7.0 items
+- changed price guide to MustafaD (pull request by [avoxgames](https://github.com/avoxgames))
