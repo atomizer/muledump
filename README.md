@@ -290,3 +290,9 @@ version 0.3: collaboration edition
 
 - 7.0 items
 - changed price guide to MustafaD (pull request by [avoxgames](https://github.com/avoxgames))
+
+**01/22/2013**
+
+0.4.11
+
+- 9.0 items
