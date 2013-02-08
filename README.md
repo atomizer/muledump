@@ -296,3 +296,9 @@ version 0.3: collaboration edition
 0.4.11
 
 - 9.0 items
+
+**02/08/2013**
+
+0.4.12
+
+- 11.0 items
