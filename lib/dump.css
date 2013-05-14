@@ -209,6 +209,42 @@ hr {
 	text-shadow: -1px 0 3px black, 0 1px 3px black, 1px 0 3px black, 0 -1px 3px black;
 }
 
+/*hp and mp */
+.hp{
+	position: relative;
+	right: -2px;
+	width: 168px;
+	height: 20px;
+	text-align: center;
+	background-color: #545454;
+	background-image: url(hp.png);
+	background-repeat: no-repeat;
+	background-position: 60px -1px;
+	margin: 2px;
+	border: #545454 2px solid;
+	color: white;
+	font: bold 15px Arial, sans-serif;
+	text-shadow: -1px 0px 1px black, 1px 0px 1px black, 0px -1px 1px black, 0px 1px 1px black;
+}
+
+.mp{
+	position: relative;
+	right: -2px;
+	top: 3px;
+	width: 168px;
+	height: 20px;
+	text-align: center;
+	background-color: #545454;
+	background-image: url(mp.png);
+	background-repeat: no-repeat;
+	background-position: 60px -1px;
+	margin: 2px;
+	border: #545454 2px solid;
+	color: white;
+	font: bold 15px Arial, sans-serif;
+	text-shadow: -1px 0px 1px black, 1px 0px 1px black, 0px -1px 1px black, 0px 1px 1px black;
+}
+
 /* achievements etc */
 .pcstats {
 	overflow: hidden;
