@@ -211,38 +211,35 @@ hr {
 
 /*hp and mp */
 .hp{
-	position: relative;
-	right: -2px;
-	width: 168px;
-	height: 20px;
-	text-align: center;
 	background-color: #545454;
 	background-image: url(hp.png);
+	background-position: 22px 2px;
 	background-repeat: no-repeat;
-	background-position: 60px -1px;
-	margin: 2px;
-	border: #545454 2px solid;
 	color: white;
-	font: bold 15px Arial, sans-serif;
+	float: left;
+	font: bold 15px/20px Arial, sans-serif;
+	height: 20px;
+	margin: 0 2px 4px 4px;
+	padding: 2px 2px 2px 17px;
+	text-align: center;
 	text-shadow: -1px 0px 1px black, 1px 0px 1px black, 0px -1px 1px black, 0px 1px 1px black;
+	width: 65px;
 }
 
 .mp{
-	position: relative;
-	right: -2px;
-	top: 3px;
-	width: 168px;
-	height: 20px;
-	text-align: center;
 	background-color: #545454;
 	background-image: url(mp.png);
+	background-position: 22px 2px;
 	background-repeat: no-repeat;
-	background-position: 60px -1px;
-	margin: 2px;
-	border: #545454 2px solid;
 	color: white;
-	font: bold 15px Arial, sans-serif;
+	float: right;
+	font: bold 15px/20px Arial, sans-serif;
+	height: 20px;
+	margin: 0 4px 4px 2px;
+	padding: 2px 2px 2px 17px;
+	text-align: center;
 	text-shadow: -1px 0px 1px black, 1px 0px 1px black, 0px -1px 1px black, 0px 1px 1px black;
+	width: 65px;
 }
 
 /* achievements etc */
