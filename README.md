@@ -57,7 +57,7 @@ Great! Fork the repo, make your changes, send pull request. Alternatively, you c
 
 ## Skins
 
-There are BMJ's [skins](http://forums.wildshadow.com/node/63758) for those who dont like the default look.
+There are BMJ's [skins](http://realmtools.com/forums/?topic=muledump-skins) for those who dont like the default look.
 
 ## Optional feature: one click login
 
