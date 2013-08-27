@@ -14,6 +14,9 @@ accounts = {
 }// don't delete this line!
 
 
+// how many characters are displayed in each row (within one account)
+rowlength = 5
+
 // change to 1 to switch to testing
 testing = 0
 
