@@ -1,3 +1,14 @@
+**2013-08-28** version 0.4.15
+
+- 16.0 items
+- 16.0 vault chest order ([Nightfirecat](https://github.com/Nightfirecat))
+- display characters always in same order ([Nightfirecat](https://github.com/Nightfirecat))
+- added `rowlength` variable to accounts.js
+- better handling of unknown items (separate counters, item id in hex)
+- use DarkDaemon's price guide ([aiedail92](https://github.com/aiedail92))
+- updated JQuery and masonry
+- more attempts to fix masonry-related rendering bugs
+
 **2013-08-01** version 0.4.14
 
 - 15.0 items
