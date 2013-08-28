@@ -15,7 +15,7 @@ accounts = {
 
 
 // how many characters are displayed in each row (within one account)
-rowlength = 5
+rowlength = 7
 
 // change to 1 to switch to testing
 testing = 0
