@@ -300,6 +300,17 @@ td.cont > div {
 	display: inline-block;
 }
 
+.giftchest > td > div > div {
+	background-color: #8b4513;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 2px;
+}
+
+.giftchest > td > div > div > .item {
+	background-color: #daa520;
+}
+
 /* stars */
 .scont {
 	background-color: #222;
