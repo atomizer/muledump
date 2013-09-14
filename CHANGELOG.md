@@ -1,3 +1,11 @@
+**2013-09-14** version 0.4.16
+
+- 16.4 items (in advance)
+- gift chests ([Nightfirecat](https://github.com/Nightfirecat))
+- more tolerant to corrupt char data (zub)
+- disabled price lookup since the forums are dead
+- email not verified warning
+
 **2013-08-28** version 0.4.15
 
 - 16.0 items

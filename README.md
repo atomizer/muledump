@@ -82,12 +82,6 @@ If already installed:
 * change `mulelogin` to `0`
 * run `lib/mulelogin.au3`, select "uninstall".
 
-## Optional feature: display prices from a price guide
-
-[aiedail92](https://github.com/aiedail92) implemented scraping of price guide threads. Currently using [MustafaD](https://forums.wildshadow.com/node/139685).
-
-**How to enable:** change `prices` in `accounts.js` to `1`
-
 ## License
 
 Copyright (c) 2013 [atomizer](https://github.com/atomizer)
