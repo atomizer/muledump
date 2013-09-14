@@ -118,7 +118,7 @@ body {
 	overflow: hidden;
 }
 
-.reload, .mulelink {
+.reload, .mulelink, .warn {
 	line-height: 2em;
 	cursor: pointer;
 	color: white;
@@ -325,4 +325,8 @@ td.cont > div {
 	font-size: 1.2em;
 	line-height: 0;
 	margin: 0 0.1em 0 0.2em;
+}
+
+.warn {
+	color: #d70;
 }
