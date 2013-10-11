@@ -38,11 +38,9 @@ A modern browser is required for muledump to work. Use latest [Firefox](http://g
 
 ### Q: How do I use it with a Kongregate account?
 
-- follow [this](http://forums.wildshadow.com/node/27826) to **step 8**
-- from step 8, take **`user_id`** and **`game_auth_token`** values
-- go [here](http://realmofthemadgod.appspot.com/kongregate/getcredentials?userId=YOUR_USER_ID&gameAuthToken=YOUR_GAT)
-- in address bar, replace fields written in CAPS with your user id and auth token
-- take `GUID` and `Secret` from result - use them as email and password
+- open console while on the game's page on Kongregate (Chrome: F12, Firefox: Ctrl+Shift+K)
+- paste the following snippet there and hit Enter: **document.location.href = 'http://' + 'realmofthemadgod.appspot.com/kongregate/getcredentials?' + jQuery.param({ userId: active_user.id(), gameAuthToken: active_user.gameAuthToken()})**
+- a page will open with the credentials; put them in your `accounts.js`, using `GUID` as email and `Secret` as password
 
 ### Q: How do I use it with a Steam account?
 [Make a web account](http://i.imgur.com/kKUAo.png).
