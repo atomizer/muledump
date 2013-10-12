@@ -45,23 +45,15 @@ A modern browser is required for muledump to work. Use latest [Firefox](http://g
 ### Q: How do I use it with a Steam account?
 [Make a web account](http://i.imgur.com/kKUAo.png).
 
-### I want to say something! And there is no thread! Wat do?
-
-Feel free to send me a [private message](https://forums.wildshadow.com/messages/new/4041) on the forums. Maybe later there will be more options.
-
 ### I want to contribute!
 
 Great! Fork the repo, make your changes, send pull request. Alternatively, you can just send me a diff or something.
-
-## Skins
-
-There are BMJ's [skins](http://realmtools.com/forums/?topic=muledump-skins) for those who dont like the default look.
 
 ## Optional feature: one click login
 
 **Windows only!** Apparently doesnt work on Chrome at the moment!
 
-[FizzeBu](http://forums.wildshadow.com/user/24488) wrote a great AutoIt script, which allows this magic to be real.
+FizzeBu wrote a great AutoIt script, which allows this magic to be real.
 
 **How to enable:**
 
