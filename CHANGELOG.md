@@ -1,3 +1,7 @@
+**2013-12-13** version 0.4.17
+
+- 18.0 items, small ring positioning tweaks
+
 **2013-09-14** version 0.4.16
 
 - 16.4 items (in advance)
