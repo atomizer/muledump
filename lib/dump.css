@@ -307,7 +307,7 @@ td.cont > div {
 	padding: 2px;
 }
 
-.giftchest > td > div > div > .item {
+.giftchest .item {
 	background-color: #daa520;
 }
 
