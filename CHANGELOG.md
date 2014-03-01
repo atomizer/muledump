@@ -1,3 +1,8 @@
+**2014-03-01** version 0.4.20
+
+- gift chests option
+- artemis skin
+
 **2014-02-21** version 0.4.19
 
 - 19.2 items
