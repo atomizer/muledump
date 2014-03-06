@@ -300,7 +300,7 @@ td.cont > div {
 	display: inline-block;
 }
 
-.giftchest > td > div > div {
+.giftchest .itemsc {
 	background-color: #8b4513;
 	margin-left: 0;
 	margin-right: 0;
