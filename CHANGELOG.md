@@ -1,3 +1,10 @@
+**2014-06-09** version 0.4.22
+
+- 21.4 items
+
+really sorry for lack of updates recently :/
+
+
 **2014-03-24** version 0.4.21
 
 - 19.5 items
