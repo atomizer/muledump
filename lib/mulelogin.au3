@@ -51,7 +51,7 @@ Func _length($string)
         $binlength &= Mod($declength,2)
         $declength = Floor($declength/2)
     WEnd
-	$binlength = _StringReverse($binlength)
+	$binlength = StringReverse($binlength)
 	$binlength = $binlength & "1"
 	$array = StringSplit($binlength,"")
 	For $i = 1 To $array[0]
