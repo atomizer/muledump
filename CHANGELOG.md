@@ -1,6 +1,7 @@
-**2014-07-01** version 0.4.23
+**2014-07-01** version 0.4.24
 
 - 22.3 items
+- one-click login script fix for latest version of AutoIt ([Nightfirecat](https://github.com/Nightfirecat))
 
 **2014-06-09** version 0.4.22
 
