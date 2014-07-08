@@ -52,6 +52,9 @@ Func _length($string)
         $declength = Floor($declength/2)
     WEnd
 	$binlength = StringReverse($binlength)
+	if @error <> 0 Then
+		$binlength = _StringReverse($binlength)
+	EndIf
 	$binlength = $binlength & "1"
 	$array = StringSplit($binlength,"")
 	For $i = 1 To $array[0]
