@@ -1,3 +1,12 @@
+**2015-01-17** version 0.5.0
+
+- 27.3.0 items
+- proper "migration required" warning
+- automated ToS accept and age verification
+- fixed PNG export (imgur)
+- internal: moved stuff around, might break things
+- internal: updated jquery
+
 **2014-10-22** version 0.4.26
 
 - 25.0 items
