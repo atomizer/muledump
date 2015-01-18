@@ -1,3 +1,7 @@
+**2015-01-18** version 0.5.1
+
+- fixed cache not updating
+
 **2015-01-17** version 0.5.0
 
 - 27.3.0 items
