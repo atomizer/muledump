@@ -24,7 +24,7 @@ All released versions are [here](https://github.com/atomizer/muledump/tags).
 
 ## Troubleshooting & Frequently Asked Questions
 
-### It redirected me to [this video](http://www.youtube.com/watch?v=KJ-wO7SMtOg)! What did I do wrong?
+### It shows nothing! What did I do wrong?
 
 There are four common pitfalls:
 - you didnt edit your `accounts.js` file. I mean, come on.
@@ -39,7 +39,7 @@ A modern browser is required for muledump to work. Use latest [Firefox](http://g
 ### Q: How do I use it with a Kongregate account?
 
 - open console while on the game's page on Kongregate (Chrome: F12, Firefox: Ctrl+Shift+K)
-- paste the following snippet there and hit Enter: **document.location.href = 'http://' + 'realmofthemadgod.appspot.com/kongregate/getcredentials?' + jQuery.param({ userId: active_user.id(), gameAuthToken: active_user.gameAuthToken()})**
+- paste the following snippet there and hit Enter: **document.location.href = 'http://' + 'realmofthemadgodhrd.appspot.com/kongregate/getcredentials?' + jQuery.param({ userId: active_user.id(), gameAuthToken: active_user.gameAuthToken()})**
 - a page will open with the credentials; put them in your `accounts.js`, using `GUID` as email and `Secret` as password
 
 ### Q: How do I use it with a Steam account?
