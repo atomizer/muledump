@@ -1,3 +1,9 @@
+**2015-01-27** version 0.6.0
+
+- automated migration
+- better user experience when mass-reloading
+- hopefully will show more info in case of errors
+
 **2015-01-18** version 0.5.1
 
 - fixed cache not updating
