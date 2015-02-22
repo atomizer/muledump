@@ -76,6 +76,15 @@ body {
 	padding: 5px;
 }
 
+#errors {
+	color: pink;
+	display: inline-block;
+	font: 16px/28px sans-serif;
+	max-width: 600px;
+}
+
+#errors:empty { display: none; }
+
 .mule {
 	padding: 2px;
 	margin: 3px;
