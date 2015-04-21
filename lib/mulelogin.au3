@@ -104,7 +104,7 @@ _build()
 
 $path = @AppDataDir & "\Macromedia\Flash Player\#SharedObjects\"
 $search = FileFindFirstFile($path & "*")
-$path &= FileFindNextFile($search) & "\www.realmofthemadgod.com\RotMG.sol"
+$path &= FileFindNextFile($search) & "\realmofthemadgodhrd.appspot.com\RotMG.sol"
 FileClose($search)
 $file = FileOpen($path,18)
 FileWrite($file,$string)
@@ -114,3 +114,5 @@ ShellExecute("http://www.realmofthemadgod.com/")
 ; replace the line above if you're using a projector
 ; for example, with totalcmd + swfview
 ;ShellExecute('C:\Program Files\Total Commander\Totalcmd.exe', '/S=L:Pswfview e:\temp\rotmg\loader.swf')
+; or to open the latest swf with the default Adobe Flash Projector
+;ShellExecute('C:\flashplayer_16_sa.exe', 'https://realmofthemadgodhrd.appspot.com/AssembleeGameClient'&BinaryToString(InetRead("http://www.realmofthemadgod.com/version.txt"))&'.swf')
