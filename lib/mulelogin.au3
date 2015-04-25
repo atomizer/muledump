@@ -102,15 +102,21 @@ $password = $data[2]
 
 _build()
 
+Local $paths[2] = ["www.realmofthemadgod.com", "realmofthemadgodhrd.appspot.com"]
 $path = @AppDataDir & "\Macromedia\Flash Player\#SharedObjects\"
 $search = FileFindFirstFile($path & "*")
-$path &= FileFindNextFile($search) & "\www.realmofthemadgod.com\RotMG.sol"
+$searchPath = FileFindNextFile($search)
+For $gameDir In $paths
+	$gameFilePath = $path & $searchPath & "\" & $gameDir & "\RotMG.sol"
+	$file = FileOpen($gameFilePath,18)
+	FileWrite($file,$string)
+	FileClose($file)
+Next
 FileClose($search)
-$file = FileOpen($path,18)
-FileWrite($file,$string)
-FileClose($file)
 
 ShellExecute("http://www.realmofthemadgod.com/")
 ; replace the line above if you're using a projector
 ; for example, with totalcmd + swfview
 ;ShellExecute('C:\Program Files\Total Commander\Totalcmd.exe', '/S=L:Pswfview e:\temp\rotmg\loader.swf')
+; or to open the latest swf with the Adobe Flash Projector
+;ShellExecute('C:\flashplayer_16_sa.exe', 'https://realmofthemadgodhrd.appspot.com/AssembleeGameClient'&BinaryToString(InetRead("http://www.realmofthemadgod.com/version.txt"))&'.swf')
