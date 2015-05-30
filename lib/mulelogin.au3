@@ -108,7 +108,7 @@ $search = FileFindFirstFile($path & "*")
 $searchPath = FileFindNextFile($search)
 For $gameDir In $paths
 	$gameFilePath = $path & $searchPath & "\" & $gameDir & "\RotMG.sol"
-	$file = FileOpen($gameFilePath,18)
+	$file = FileOpen($gameFilePath,26)
 	FileWrite($file,$string)
 	FileClose($file)
 Next
