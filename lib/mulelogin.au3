@@ -102,7 +102,11 @@ $password = $data[2]
 
 _build()
 
-Local $paths[2] = ["www.realmofthemadgod.com", "realmofthemadgodhrd.appspot.com"]
+Local $paths[3] = [ _
+	"localhost", _
+	"realmofthemadgodhrd.appspot.com", _
+	"www.realmofthemadgod.com" _
+]
 $path = @AppDataDir & "\Macromedia\Flash Player\#SharedObjects\"
 $search = FileFindFirstFile($path & "*")
 $searchPath = FileFindNextFile($search)
