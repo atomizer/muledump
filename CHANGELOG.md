@@ -1,3 +1,20 @@
+**2015-09-22** version 0.6.3
+
+- consumables are now sorted by type (thanks to Pfiffel & Nightfirecat)
+- further improvements to the one-click login script (thanks to Nightfirecat)
+- now you can add your steam account... but nobody knows how
+- a new item??? (27.7.0)
+
+**2015-04-25** version 0.6.2
+
+- one-click login now writes to both possible locations of the flash cookie
+- fixed display of the one-click login links
+
+**2015-02-22** version 0.6.1
+
+- 27.3.1 items
+- show all errors at the top of the page (as before)
+
 **2015-01-27** version 0.6.0
 
 - automated migration
