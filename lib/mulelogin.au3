@@ -102,15 +102,24 @@ $password = $data[2]
 
 _build()
 
-Local $paths[2] = ["www.realmofthemadgod.com", "realmofthemadgodhrd.appspot.com"]
-$path = @AppDataDir & "\Macromedia\Flash Player\#SharedObjects\"
-$search = FileFindFirstFile($path & "*")
-$searchPath = FileFindNextFile($search)
-For $gameDir In $paths
-	$gameFilePath = $path & $searchPath & "\" & $gameDir & "\RotMG.sol"
-	$file = FileOpen($gameFilePath,18)
-	FileWrite($file,$string)
-	FileClose($file)
+Local $paths_base[2] = [ _
+	@AppDataDir & "\Macromedia\Flash Player\#SharedObjects\", _
+	_PathFull("../Local", @AppDataDir) & "\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects\" _
+]
+Local $paths[3] = [ _
+	"localhost", _
+	"realmofthemadgodhrd.appspot.com", _
+	"www.realmofthemadgod.com" _
+]
+For $path_base In $paths_base
+	$search = FileFindFirstFile($path_base & "*")
+	$searchPath = FileFindNextFile($search)
+	For $gameDir In $paths
+		$gameFilePath = $path_base & $searchPath & "\" & $gameDir & "\RotMG.sol"
+		$file = FileOpen($gameFilePath,26)
+		FileWrite($file,$string)
+		FileClose($file)
+	Next
 Next
 FileClose($search)
 
