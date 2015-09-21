@@ -6,7 +6,7 @@ The point of playing the game is to have fun. Muling is not fun. I am trying to 
 
 ## Download
 
-All released versions are [here](https://github.com/atomizer/muledump/tags).
+All released versions are [here](https://github.com/atomizer/muledump/releases).
 
 ## Howto
 
@@ -43,7 +43,8 @@ A modern browser is required for muledump to work. Use latest [Firefox](http://g
 - a page will open with the credentials; put them in your `accounts.js`, using `GUID` as email and `Secret` as password
 
 ### Q: How do I use it with a Steam account?
-[Make a web account](http://i.imgur.com/kKUAo.png).
+
+someone should write a good tutorial here... #48
 
 ### I want to contribute!
 
