@@ -22,56 +22,9 @@ All released versions are [here](https://github.com/atomizer/muledump/releases).
 - ctrl-click account name to temporarily hide it from totals
 - read the `accounts.js` file, it has some variables to play with
 
-## Troubleshooting & Frequently Asked Questions
+## Head to the [wiki](https://github.com/atomizer/muledump/wiki) for more information!
 
-### It shows nothing! What did I do wrong?
-
-There are four common pitfalls:
-- you didnt edit your `accounts.js` file. I mean, come on.
-- you didnt delete/replace both example accounts from said file.
-- you broke syntax when you were editing your `accounts.js`. Use an editor with syntax hilighting and common sense.
-- you failed to rename it properly because of your file manager. In Windows, try to [enable file name extensions](http://windows.microsoft.com/en-US/windows7/Show-or-hide-file-name-extensions).
-
-### It doesnt work in my Internet Explorer!
-
-A modern browser is required for muledump to work. Use latest [Firefox](http://getfirefox.com), [Chrome](https://www.google.com/chrome) or [Opera](http://www.opera.com/).
-
-### Q: How do I use it with a Kongregate account?
-
-- open console while on the game's page on Kongregate (Chrome: F12, Firefox: Ctrl+Shift+K)
-- paste the following snippet there and hit Enter: **document.location.href = 'http://' + 'realmofthemadgodhrd.appspot.com/kongregate/getcredentials?' + jQuery.param({ userId: active_user.id(), gameAuthToken: active_user.gameAuthToken()})**
-- a page will open with the credentials; put them in your `accounts.js`, using `GUID` as email and `Secret` as password
-
-### Q: How do I use it with a Steam account?
-
-someone should write a good tutorial here... #48
-
-### I want to contribute!
-
-Great! Fork the repo, make your changes, send pull request. Alternatively, you can just send me a diff or something.
-
-## Optional feature: one click login
-
-**Windows only!** Apparently doesnt work on Chrome at the moment!
-
-FizzeBu wrote a great AutoIt script, which allows this magic to be real.
-
-**How to enable:**
-
-* install [AutoIt](http://www.autoitscript.com/site/autoit/downloads/)
-* change `mulelogin` in `accounts.js` to `1`
-* run `lib/mulelogin.au3` once
-* refresh, click arrows next to reload buttons
-* never share your `muledump:` links!
-
-**How to remove:**
-
-If you are too sceptical/afraid to even try, just remove `mulelogin.au3`. No harm done.
-
-If already installed:
-
-* change `mulelogin` to `0`
-* run `lib/mulelogin.au3`, select "uninstall".
+And of course, feel free to contribute to it!
 
 ## License
 
