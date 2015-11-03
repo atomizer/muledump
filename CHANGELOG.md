@@ -1,8 +1,13 @@
+**2015-11-03** version 0.6.4
+
+- [Kabam.com support](https://github.com/atomizer/muledump/wiki/Kabam-tutorial) (thanks to Zaltais333)
+- consumable sorting fixes
+
 **2015-09-22** version 0.6.3
 
 - consumables are now sorted by type (thanks to Pfiffel & Nightfirecat)
 - further improvements to the one-click login script (thanks to Nightfirecat)
-- now you can add your steam account... but nobody knows how
+- [Steam support](https://github.com/atomizer/muledump/wiki/Steam-Tutorial)
 - a new item??? (27.7.0)
 
 **2015-04-25** version 0.6.2
