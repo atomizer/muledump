@@ -167,6 +167,7 @@ hr {
 .stat.good.very { color: #00ff00; }
 .stat.bad { color: #ff9090; }
 .stat.bad.very { color: #ff0000; }
+.stat.small { font-size: 11px; }
 
 .items {
 	line-height: 0;
