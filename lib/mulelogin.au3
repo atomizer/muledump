@@ -23,7 +23,7 @@ Func _install()
 	Local $k
 	$k = RegEnumKey($root, 1)
 	If @error == 2 Then
-		MsgBox(16,"mulelogin","Unable to open the registry" & @CRLF & "Try again with admin rights")
+		MsgBox(16,"mulelogin","Unable to open the registry" & @CRLF & "Try again with admin rights" & @CRLF & "or open this file through AutoIt directly")
 		Exit
 	EndIf
 	If @error == 1 Then _write()
