@@ -1,3 +1,8 @@
+**2016-07-25** version 0.6.5
+
+- 27.7.DECA (1469395332) items
+- combined stat display (base/max) by [JohnBlackburne](https://github.com/JohnBlackburne)
+
 **2015-11-03** version 0.6.4
 
 - [Kabam.com support](https://github.com/atomizer/muledump/wiki/Kabam-tutorial) (thanks to Zaltais333)
